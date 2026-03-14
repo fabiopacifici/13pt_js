@@ -1,0 +1,43 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+  background-color: transparent;
+  border: none;
+  font-size: 22px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+
+
+  nav {
+    position: fixed;
+    top: 50px;
+    right: 1rem;
+    border: 1px solid rgb(223, 223, 223);
+    ul {
+      list-style: none;
+      padding: 1rem;
+
+      a{
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}
+
+.d-none {
+  display: none;
+}
